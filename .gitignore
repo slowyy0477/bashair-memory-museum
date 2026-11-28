@@ -1,8 +1,13 @@
 *
 !index.html
 !share.css
-!unlock.js
-!museum.dat
+!unlock-7d270dcb400130531df6fd58488f30ade6a20b38f4aea9b4f007e1e9dde8b3b1.js
+!museum-f315cfe635c9ad362dceecc76c14f9e9038573cb2b28ab6b3372b6ac42b05047.dat
 !.nojekyll
 !README.md
 !.gitignore
+!city-manifest.json
+!city-icon-192.png
+!city-icon-512.png
+!city-apple-touch-icon.png
+!city-sw.js

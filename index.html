@@ -1,3 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="referrer" content="no-referrer"><meta name="robots" content="noindex,nofollow,noarchive"><title>Private memory room</title><link rel="stylesheet" href="share.css"></head>
-<body><main id="gate"><p class="eyebrow">PRIVATE COLLECTION</p><h1>Your invitation.</h1><p id="status" role="status">Opening your room…</p><noscript>This invitation needs JavaScript enabled.</noscript></main><iframe id="room" title="Private memory museum" allow="autoplay; fullscreen" hidden></iframe><script src="unlock.js"></script></body></html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="referrer" content="no-referrer"><meta name="robots" content="noindex,nofollow,noarchive"><title>Private memory room</title><link rel="stylesheet" href="share.css"><link rel="manifest" href="city-manifest.json"><link rel="apple-touch-icon" sizes="180x180" href="city-apple-touch-icon.png"><meta name="theme-color" content="#382e28"></head>
+<body><main id="gate"><p class="eyebrow">PRIVATE COLLECTION</p><h1>Your invitation.</h1><p id="status" role="status">Opening your room…</p><noscript>This invitation needs JavaScript enabled.</noscript><form id="city-invitation" autocomplete="off" hidden>
+  <label for="city-invite-input">Private invitation</label>
+  <input id="city-invite-input" type="text" inputmode="url" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" aria-describedby="city-invite-hint" maxlength="2048">
+  <p id="city-invite-hint">Paste the private invitation link or just its <code>#k=…</code> fragment.</p>
+  <div class="city-actions"><button type="submit">Open invitation</button><button id="city-paste" type="button" hidden>Paste and open</button></div>
+</form>
+<div class="city-actions city-install-entry"><button id="city-install" type="button" aria-haspopup="dialog" hidden>Install app</button></div>
+</main><iframe id="room" title="Private memory museum" allow="autoplay; fullscreen" hidden></iframe><dialog id="city-install-help" aria-labelledby="city-install-title" aria-describedby="city-install-text">
+  <h2 id="city-install-title">Install Memory City</h2>
+  <p id="city-install-text"></p>
+  <p>Keep your invitation somewhere private. Installing the app does not save the key.</p>
+  <div class="city-actions"><button id="city-install-native" type="button" hidden>Install app</button><button id="city-install-close" type="button" autofocus>Close</button></div>
+</dialog><script src="unlock-7d270dcb400130531df6fd58488f30ade6a20b38f4aea9b4f007e1e9dde8b3b1.js"></script></body></html>

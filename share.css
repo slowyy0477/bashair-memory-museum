@@ -1,1 +1,13 @@
 :root{color-scheme:light}*{box-sizing:border-box}[hidden]{display:none!important}html,body{width:100%;height:100%;margin:0;background:#eee8dc;color:#382e28}body{font-family:Georgia,serif}#gate{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;max-width:38rem;padding:2.2rem;margin:auto}.eyebrow{font:600 .68rem/1.4 Arial,sans-serif;letter-spacing:.2em;color:#725547}h1{font-weight:400;font-size:clamp(3rem,8vw,5.3rem);line-height:1.03;margin:.7rem 0 1.5rem}#status{font:400 1rem/1.6 Arial,sans-serif;max-width:26rem;color:#66574d}#room{position:fixed;inset:0;width:100%;height:100%;height:100dvh;border:0}noscript{font:400 1rem/1.6 Arial,sans-serif}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+#gate{position:static;min-height:100%;padding:2.2rem;padding:max(1.5rem,env(safe-area-inset-top)) max(1.5rem,env(safe-area-inset-right)) max(1.5rem,env(safe-area-inset-bottom)) max(1.5rem,env(safe-area-inset-left))}
+#city-invitation{width:100%;max-width:26rem;font:1rem/1.5 Arial,sans-serif}
+#city-invitation label{display:block;font-weight:bold;margin-bottom:.4rem}
+#city-invite-input{width:100%;min-height:44px;padding:.65rem;font:inherit;color:inherit;background:#faf5eb;border:1px solid #8b7162;border-radius:.35rem}
+#city-invite-hint{font-size:.9rem;color:#66574d;margin:.45rem 0 .9rem}
+.city-actions{display:flex;flex-wrap:wrap;gap:.6rem}
+.city-actions button{min-height:44px;padding:.55rem .9rem;border:1px solid #725547;border-radius:.35rem;background:#faf5eb;color:#382e28;font:600 .95rem/1.3 Arial,sans-serif;cursor:pointer}
+.city-actions button[type=submit],#city-install-native{background:#633d3d;color:#fff}
+.city-install-entry:not(:empty){margin-top:1rem}
+#city-install-help{inset:max(1rem,env(safe-area-inset-top)) max(1rem,env(safe-area-inset-right)) max(1rem,env(safe-area-inset-bottom)) max(1rem,env(safe-area-inset-left));width:min(27rem,calc(100% - 2rem - env(safe-area-inset-left) - env(safe-area-inset-right)));max-width:none;max-height:calc(100% - 2rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));overflow:auto;padding:1.25rem;border:1px solid #8b7162;border-radius:.6rem;background:#eee8dc;color:#382e28;font:1rem/1.5 Arial,sans-serif}
+#city-install-help h2{font:400 1.65rem/1.1 Georgia,serif;margin:0}
+#city-install-help::backdrop{background:#251915b8}
